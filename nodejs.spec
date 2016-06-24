@@ -126,6 +126,11 @@ cp -p common.gypi %{buildroot}%{_datadir}/node
 %{_defaultdocdir}/%{name}-docs-%{version}
 
 %changelog
+* Fri Jun 24 2016 Rajiv M Ranganath <rajiv.ranganath@atihita.com> - 4.4.6-1
+- nodejs.spec: Update to v4.4.6
+- Add `node-v4.4.6.tar.gz`
+- Remove `node-v4.4.5.tar.gz`
+
 * Fri May 27 2016 Rajiv M Ranganath <rajiv.ranganath@atihita.com> - 4.4.5-1
 - nodejs.spec: Update to v4.4.5
 - Add `node-v4.4.5.tar.gz`, `icu4c-56_1-src.tgz`
