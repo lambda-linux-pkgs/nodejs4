@@ -3,7 +3,7 @@
 %global orig_name nodejs
 
 Name: nodejs4
-Version: 4.4.5
+Version: 4.4.6
 Release: 1%{?_buildid}%{?dist}
 Summary: JavaScript runtime
 License: MIT and ASL 2.0 and ISC and BSD
